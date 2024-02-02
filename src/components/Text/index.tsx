@@ -35,6 +35,9 @@ const textStyles = cva('w-full', {
 		underline: {
 			true: 'underline underline-offset-2',
 		},
+		linethrough: {
+			true: 'line-through',
+		},
 	},
 	defaultVariants: {
 		size: 'base',
@@ -61,6 +64,7 @@ export const Text: TextComponent = forwardRef(
 			italic,
 			size,
 			underline,
+			linethrough,
 			weight,
 			className,
 			...props
@@ -78,6 +82,7 @@ export const Text: TextComponent = forwardRef(
 						italic,
 						size,
 						underline,
+						linethrough,
 						weight,
 						className,
 					})

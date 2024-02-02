@@ -16,8 +16,13 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
 	args: {
-		as: 'h1',
-		children:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quae aspernatur! Illum animi quidem beatae?',
+		children: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+		align: 'center',
+		emphasis: 'low',
+		size: 'base',
+		weight: 'normal',
+		italic: true,
+		underline: true,
+		linethrough: true,
 	},
 }
