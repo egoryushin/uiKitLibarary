@@ -14,30 +14,37 @@ export default meta
 
 type Story = StoryObj<typeof meta>
 
-export const Solid: Story = {
+export const Primary: Story = {
 	args: {
-		variant: 'solid',
-		children: 'Button Solid',
+		variant: 'primary',
+		children: 'Button',
 	},
 }
 
-export const Outline: Story = {
+export const Secondary: Story = {
 	args: {
-		variant: 'outline',
-		children: 'Button Outline',
+		variant: 'secondary',
+		children: 'Button',
 	},
 }
 
-export const Ghost: Story = {
+export const SecondaryGrey: Story = {
 	args: {
-		variant: 'ghost',
-		children: 'Button Ghost',
+		variant: 'secondaryGrey',
+		children: 'Button',
+	},
+}
+
+export const PrimaryError: Story = {
+	args: {
+		variant: 'primaryError',
+		children: 'Button',
 	},
 }
 
 export const Disabled: Story = {
 	args: {
 		variant: 'disabled',
-		children: 'Button Disabled',
+		children: 'Button',
 	},
 }

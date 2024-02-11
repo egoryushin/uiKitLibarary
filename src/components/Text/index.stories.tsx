@@ -22,7 +22,7 @@ export const Default: Story = {
 		size: 'base',
 		weight: 'normal',
 		italic: true,
-		underline: true,
-		linethrough: true,
+		underline: false,
+		linethrough: false,
 	},
 }

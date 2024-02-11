@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react'
+import { Meta, StoryObj } from '@storybook/react'
 import { LoginForm } from './LoginForm'
 
 const meta: Meta<typeof LoginForm> = {
